@@ -38,6 +38,10 @@ about:
   license: BSD 3-Clause
   license_file: ndg/httpsclient/LICENSE
   summary: Provides enhanced HTTPS support for httplib and urllib2 using PyOpenSSL.
+  description: |
+    A HTTPS client implementation for httplib, http.client and urllib2 based on PyOpenSSL.
+    PyOpenSSL provides a more fully featured SSL implementation over the default provided
+    with Python and importantly enables full verification of the SSL peer.
   doc_url: http://pythonhosted.org/ndg-httpsclient
   dev_url: https://github.com/cedadev/ndg_httpsclient
 
