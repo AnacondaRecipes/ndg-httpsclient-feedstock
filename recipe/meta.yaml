@@ -24,7 +24,7 @@ requirements:
     - pip
   run:
     - python
-    - pyasn1
+    - pyasn1 >=0.1.1
     - pyopenssl
 
 test:
@@ -32,6 +32,8 @@ test:
     - ndg
     - ndg.httpsclient
     - ndg.httpsclient.test
+  commands:
+    - ndg_httpclient --help
 
 about:
   home: https://github.com/cedadev/ndg_httpsclient
@@ -48,3 +50,4 @@ about:
 extra:
   recipe-maintainers:
     - goanpeca
+    - nehaljwani
